@@ -122,8 +122,10 @@ class _searchPageState extends State<searchPage> {
                                   children: [
                                     CircleAvatar(
                                         radius: 15,
-                                        backgroundImage: AssetImage(
-                                            'assets/images/zuck.jpg')),
+                                        backgroundImage: NetworkImage(
+                                            SearchList[index]
+                                                .imagepath
+                                                .toString())),
                                     SizedBox(
                                       width: 5,
                                     ),
