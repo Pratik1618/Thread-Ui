@@ -50,7 +50,7 @@ class _searchPageState extends State<searchPage> {
                           fontWeight: FontWeight.bold),
                     ),
                     SizedBox(
-                      height: 2,
+                      height: 3,
                     ),
                     Container(
                       padding: EdgeInsets.symmetric(
